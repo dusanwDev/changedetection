@@ -1,0 +1,7 @@
+<!-- {{ parent() }} -->
+<input type="text" [(ngModel)]="inputText" />
+inputText Parents{{ inputText }}
+<button (click)="parent()">Trigger</button>
+Parent Input{{ input.name }}
+<br />
+<app-child-right [input]="input"></app-child-right>
