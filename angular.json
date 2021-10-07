@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "changdetetection"
+    }
+  },
+  "defaultProject": "changdetetection",
+  "cli": {
+    "analytics": false
+  }
 }
